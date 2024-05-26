@@ -9,7 +9,8 @@ body {
 }
 
 img{
-    width: 50%;
+    width: 500px;
+    height: 350px;
 }
 
 a {
@@ -39,6 +40,7 @@ a {
     padding: 0;
     display: flex;
     gap: 25px;
+    font-weight: 300;
 }
 
 .hero-content,
@@ -57,9 +59,11 @@ a {
 }
 
 .hero-cta {
+    flex-basis: 400px;
     display: flex;
     flex-direction: column;
-    justify-content: space-between;
+    justify-content: center;
+    gap: 10px;
 }
 
 .hero-text {
