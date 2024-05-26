@@ -45,15 +45,16 @@ a {
 
 .hero-content,
 .header {
-    width: 80%;
+    width: 70%;
+    max-width: 975px;
     margin: 0 auto;
 }
 
 .hero-content {
     display: flex;
-    justify-content: center;
+    justify-content: space-between;
     gap: 50px;
-    align-items: space-between;
+    align-items: center;
     /* border: 1px solid white; */
     padding: 100px 0;
 }
@@ -86,7 +87,7 @@ button {
 
 h1 {
     font-size: 48px;
-    font-weight: 800;
+    font-weight: 700;
     margin: 0;
 }
 
@@ -100,3 +101,6 @@ h1,
 .logo {
     color: #F9FaF8;
 }
+
+/* INFO SECTION */
+
