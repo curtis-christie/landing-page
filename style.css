@@ -149,3 +149,33 @@ h1,
 .item p {
     text-align: center;
 }
+
+/* QUOTE SECTION */
+
+.quote-section {
+    background-color: #e5e7eb;
+    padding: 100px 0;
+}
+
+.quote-wrapper {
+    width: 70%;
+    max-width: 960px;
+    margin: 0px auto;
+}
+
+.quote-wrapper p {
+    font-size: 36px;
+    font-weight: light;
+    font-style: italic;
+    margin: 0;
+}
+
+.quote-wrapper .thor {
+    font-weight: 800;
+    font-size: 18px;
+    font-style: normal;
+    text-align: right;
+}
+
+/* CTA SECTION */
+
