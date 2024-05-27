@@ -8,7 +8,18 @@ body {
     padding: 0;
 }
 
-img{
+h1, h2, h3 {
+    margin: 0;
+    padding: 0;
+}
+
+h2 {
+    font-size: 36px;
+    font-weight: 700;
+    color: #1f2937;
+}
+
+.hero-content img{
     width: 500px;
     height: 350px;
 }
@@ -104,3 +115,37 @@ h1,
 
 /* INFO SECTION */
 
+.wrapper {
+    width: 70%;
+    max-width: 975px;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.info-h2 {
+    margin: 30px;
+}
+
+.info-content {
+    display: flex;
+    justify-content: center;
+}
+
+.info-img {
+    border: 4px solid #3882f6;
+    width: 150px;
+    height: 165px;
+    border-radius: 10px;
+}
+
+.item {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.item p {
+    text-align: center;
+}
